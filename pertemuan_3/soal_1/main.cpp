@@ -15,12 +15,7 @@ int main() {
   ios::sync_with_stdio(false);
   cin.tie(nullptr);
   double a, b, c;
-  cout << "Enter coefficients a:" << endl;
-  cin >> a;
-  cout << "Enter coefficients b:" << endl;
-  cin >> b;
-  cout << "Enter coefficients c:" << endl;
-  cin >> c;
+  cin >> a >> b >> c;
   double d = b * b - 4 * a * c;
   if (d < 0) {
     cout << "There are no real roots" << endl;

@@ -1,0 +1,7 @@
+Payslip for Employee
+---------------------
+Name: Jane Doe
+Tax (20%): Rp0,20
+Installment: Rp1,00
+Insurance: Rp1,00
+Net Salary: Rp-1,20

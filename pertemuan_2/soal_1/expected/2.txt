@@ -1,0 +1,7 @@
+Payslip for Employee
+---------------------
+Name: John Doe 
+Tax (20%): Rp30.000.000,00
+Installment: Rp200.000,00
+Insurance: Rp150.000,00
+Net Salary: Rp119.650.000,00

@@ -16,12 +16,7 @@ int main() {
   ios::sync_with_stdio(false);
   cin.tie(nullptr);
   ll x, y, z;
-  cout << "Inputkan bilangan 1: " << endl;
-  cin >> x;
-  cout << "Inputkan bilangan 2: " << endl;
-  cin >> y;
-  cout << "Inputkan bilangan 3: " << endl;
-  cin >> z;
+  cin >> x >> y >> z;
   ll maks = x;
   if (y > maks) {
     maks = y;

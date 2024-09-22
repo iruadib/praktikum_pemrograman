@@ -1,5 +1,5 @@
 /**
- *  author: zukozuko
+ *  author: Khoirul Adib
  *  created: 17.09.2024 13:37:35
  **/
 #include <bits/stdc++.h>
@@ -15,8 +15,6 @@ using namespace std;
 int main() {
   ios::sync_with_stdio(false);
   cin.tie(nullptr);
-  freopen("input.txt", "r", stdin);
-  freopen("output.txt", "w", stdout);
   ll n;
   cin >> n;
   for (ll i = 1; i <= 10; i++) {

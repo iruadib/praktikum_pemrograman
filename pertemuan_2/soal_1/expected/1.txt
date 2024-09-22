@@ -1,0 +1,7 @@
+Payslip for Employee
+---------------------
+Name: Khoirul Adib Fairuza
+Tax (20%): Rp20.000.000.000.000,00
+Installment: Rp123.412.341.234,00
+Insurance: Rp123.123,00
+Net Salary: Rp79.876.587.535.643,00

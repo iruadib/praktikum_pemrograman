@@ -45,14 +45,8 @@ int main() {
   cin.tie(nullptr);
   string s;
   double n, y, z;
-  cout << "Enter the name:" << endl;
   getline(cin, s);
-  cout << "Enter the gross salary:" << endl;
-  cin >> n;
-  cout << "Enter the amount of fixed installment:" << endl;
-  cin >> y;
-  cout << "Enter the amount of fixed insurance:" << endl;
-  cin >> z;
+  cin >> n >> y >> z;
   double tx = 2.0 * n / 10;
   double res = n - tx - y - z;
   cout << "Payslip for Employee" << endl;

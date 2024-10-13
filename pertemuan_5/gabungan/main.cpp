@@ -55,7 +55,7 @@ int main() {
     // pengguna memasukkan n nilai ke vector v
     for (int& i : v)
       cin >> i;
-    // menswap elemen depan ke belakang
+    // menswap elemen setengah awal ke setengah akhir dengan order yang terbalik
     for (int i = 0; i < n / 2; i++) {
       // ekuivalen dengan swap(v[i], v[n -1, i])
       v[i] ^= v[n - 1 - i];

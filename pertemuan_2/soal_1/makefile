@@ -1,5 +1,5 @@
 CC = g++
-CFLAGS = -Wall -fdiagnostics-color=always -fno-optimize-sibling-calls -fno-strict-aliasing -lm -s -Wl,--stack=268435456 -g -O2 -std=c++17
+CFLAGS = -Wall
 SRC = main.cpp 
 TARGET = main.exe
 

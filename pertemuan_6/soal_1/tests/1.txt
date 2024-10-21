@@ -1,0 +1,13 @@
+3
+APL
+Apel
+40000
+1
+JRB
+Jeruk bali
+20000
+3
+ALP
+Alpukat
+50000
+2

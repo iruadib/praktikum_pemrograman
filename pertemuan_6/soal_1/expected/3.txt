@@ -1,0 +1,2 @@
+Jumlah barang: 2
+Rata-rata harga barang: 1.00

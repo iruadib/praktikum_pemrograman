@@ -27,13 +27,17 @@ int main() {
   int sum = 0, cnt = 0;
   for (auto& i : v) {
     cin >> i.kode;
+    cin.ignore();
     getline(cin, i.nama);
     cin >> i.harga;
     cin >> i.jumlah;
     cnt += i.jumlah;
     sum += (i.harga * i.jumlah);
   }
-  double avg = sum / cnt * 1.0;
-  cout << cnt << " " << fixed << setprecision(0) << avg << endl;
+  double avg = sum * 1.0 / cnt;
+  if (sum == 0)
+    avg = 0.0;
+  cout << "Jumlah barang: " << cnt << endl
+       << fixed << setprecision(2) << "Rata-rata harga barang: " << avg << endl;
   return 0;
 }

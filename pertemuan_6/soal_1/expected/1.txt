@@ -1,0 +1,2 @@
+Jumlah barang: 6
+Rata-rata harga barang: 33333.33
